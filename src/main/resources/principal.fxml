@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="153.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.test.proyectoconexiondb.controller.PrincipalController">
+   <children>
+      <Label layoutX="28.0" layoutY="29.0" text="Prueba de coineccion con bd" />
+      <Button fx:id="btnConexion" layoutX="52.0" layoutY="59.0" mnemonicParsing="false" onAction="#probarConexion" text="Probar Conexion" />
+      <Label fx:id="lblEstado" layoutX="86.0" layoutY="116.0" text="estado" />
+   </children>
+</AnchorPane>
